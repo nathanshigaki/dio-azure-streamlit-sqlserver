@@ -27,8 +27,6 @@ A aplicação permite cadastrar produtos com nome, preço, descrição e imagem,
 
 ## 📂 Estrutura do Projeto
 
-
-
 ```text
 ├── .env                # Credenciais reais (não enviado ao GitHub)
 ├── .env.example        # Modelo de configuração para novos usuários
@@ -64,3 +62,10 @@ Para rodar este projeto localmente, siga os passos abaixo:
    ```bash
    streamlit run main.py
    ```
+
+## 🛤️ Possibilidades de Evolução
+Embora este projeto cumpra os requisitos do bootcamp, ele foi estruturado de forma a permitir evoluções futuras em um cenário de produção, como:
+
+1. **Autenticação de Usuários:** Implementar uma tela de login para que apenas administradores possam cadastrar e deletar produtos.
+2. **Dashboard de Vendas:** Utilizar os recursos gráficos do Streamlit para exibir métricas de preços e quantidade de produtos cadastrados.
+3. **Hospedar a aplicação no Azure App Service.**
